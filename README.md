@@ -7,6 +7,7 @@ Project consists of a brute force attack to get access to a remote host. This pr
 <h2>Environments Used </h2>
 
 - <b>Kali Linux</b>
+- <b>Metasploit</b>
 
 <h2>Program walk-through:</h2>
 
