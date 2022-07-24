@@ -63,7 +63,8 @@ Metasploit version: <br/>
 <p align="center">
 <img src="https://i.imgur.com/8SsR8qq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-<img src="https://i.imgur.com/RbK8Mzj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/npwMMBj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
     
   - <b>Now we are starting the metasploit (because we are using kali, it should be already installed)</b>
