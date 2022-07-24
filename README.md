@@ -11,7 +11,7 @@ Project consists of a brute force attack to get access to a remote host. This pr
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Metasploit version (Nmap scan): <br/>
+Metasploit version: <br/>
   
   - <b>First we have to discover and determine which of our devices on the network might have an SSH port open</b>
   - <b>We will be starting with getting the network range</b>
