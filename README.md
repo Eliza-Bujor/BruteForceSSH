@@ -50,10 +50,65 @@ Metasploit version (Nmap scan): <br/>
 <img src="https://i.imgur.com/rdjowzl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
   
-  - <b>To open the port just run the command service ssh start and now we can see that the port 22 is not open for our IP</b>
+  - <b>To open the port just run the command service ssh start and now we can see that the port 22 is now open for our IP</b>
 
 <p align="center">
 <img src="https://i.imgur.com/aH6g4n9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+  
+  - <b>Nmap can allow scripting as well and nmap can be used as an attack tool and not only as a scanning tool</b>
+  - <b>Now we will be creating a list of users and passwords that will be stored on the Desktop</b>
+
+<p align="center">
+<img src="https://i.imgur.com/8SsR8qq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/RbK8Mzj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+    
+  - <b>Now we are starting the metasploit (because we are using kali, it should be already installed)</b>
+  - <b>This will allow us to brute force SSH</b>
+  
+<p align="center">
+<img src="https://i.imgur.com/yaghSYQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+    
+  - <b>Once we are up and running metasploit, perform a ssh search and then use then you can manually search for the file that you want to use (should be the directory that leads to ssh_login) and we will be directed into the auxiliary scanner </b>
+
+<p align="center">
+<img src="https://i.imgur.com/PYsxFb3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+      
+  - <b>Those are all the things that we can set up our metasploit to do before deploying the payload, however some of them are not actually required, but the ones that are, needs to be filled in before moving ahead</b>
+
+<p align="center">
+<img src="https://i.imgur.com/4lTbmib.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+        
+  - <b>Here we are setting the rhosts to the IP address of our target</b>
+  - <b>The reason why we are setting stop_on_success to true is that after finding the valid credentials, it will stop seaching</b>
+
+<p align="center">
+<img src="https://i.imgur.com/vFrm3KG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+          
+  - <b>Then set the user_file to users.txt</b>
+  - <b>Same for the password.txt</b>
+  - <b>Then we would like to see all the attemps so we will be setting the verbose to true</b>
+
+<p align="center">
+<img src="https://i.imgur.com/K4nICDx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+            
+  - <b>Now that we set it up, we can run it</b>
+
+<p align="center">
+<img src="https://i.imgur.com/0pIuuuk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+              
+  - <b>It can be noticed in the result that an SSH session has opened and we can start now attacking it</b>
+
+<p align="center">
+<img src="https://i.imgur.com/8DoKgwX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
